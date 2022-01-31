@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #011f3f;
+  color: #fef2bf;
+}
+
+header {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 2rem;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.btn-con {
+  padding: 5rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  margin: 1rem 0;
+}
+#row-1 {
+  margin-bottom: 5rem;
+}
+
+#row-2 {
+  margin-top: 5rem;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13.5rem;
+  box-sizing: border-box;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  border: 10px solid black;
+  width: 13.5rem;
+  height: 100%;
+  margin: 0 3rem;
+  transition: all;
+  transition-duration: 0.5s;
+
+}
+
+.btn:hover {
+  box-shadow: 15px 15px 0px #001833;
+  transform: scale(1.125);
+}
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.pop {
+  background-color: black !important;
+  transform: scale(1.125);
+  box-shadow: 15px 15px 0px #001833;
+  
+}
+
+.click {
+  transition: none;
+  background-color: pink !important;
+}
+
+.redAlert {
+  background-color: red;
+}
+
+footer {
+  padding: 2.5rem;
+  font-family: "Raleway", sans-serif;
+}
